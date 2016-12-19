@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>IPC</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+          <h1>Introduction to Internet of Things !</h1>
+          <h5>AoLab @aolab</h5>
+          <span>Fall 2016</span>
+        </section>
+        <section>
+          <section>
+            <h2>IoT ?!</h2>
+            <div>
+              <header>Wikipedia</header>
+              <p>
+              The network of physical objects or <strong>things</strong> embedded with electronics,
+              software, sensors, and connectivity to enable objects to exchange data with the
+              manufacturer, operator and/or other connected devices based on the infrastructure of
+              ITU's Global Standards Initiative
+              </p>
+            </div>
+          </section>
+          <section>
+            <h2>IoT ?!</h2>
+            <div>
+              <header>ITU</header>
+              <p>
+              A global infrastructure for the information society, enabling advanced services
+              by interconnecting (physical and virtual) things based on existing and evolving
+              interoperable information and communication technologies
+              </p>
+            </div>
+          </section>
+          <section>
+            <h2>IoT ?!</h2>
+            <div>
+              <header>Whatis</header>
+              <p>
+              A scenario in which objects, animals or people are provided with unique
+              identifiers and the ability to transfer data over a network without requiring
+              human-to-human or human-to-computer interaction.
+              </p>
+            </div>
+          </section>
+        </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
