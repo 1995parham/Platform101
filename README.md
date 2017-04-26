@@ -1,4 +1,5 @@
 # IoT101
+[![Build Status](https://travis-ci.org/AoLab/IoT101.svg?branch=master)](https://travis-ci.org/AoLab/IoT101)
 
 ## Introduction
 
