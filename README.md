@@ -10,6 +10,7 @@ Story of our AoLab presentation of Platforms, from beginning until now ...
 - Let's build smart CEIT
 - Yalda Night of CEIT
 - Iran IoT Conference 2017
+- 9th Linux Festival
 
 ## Special Thanks
 
