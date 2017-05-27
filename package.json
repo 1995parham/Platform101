@@ -1,0 +1,19 @@
+{
+  "name": "i1820.introduction",
+  "version": "1.0.0",
+  "description": "Let's learn I1820",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I1820/Introduction.git"
+  },
+  "author": "Parham Alvani",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/I1820/Introduction/issues"
+  },
+  "homepage": "https://github.com/I1820/Introduction#readme"
+}
