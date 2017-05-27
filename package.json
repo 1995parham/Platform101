@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/I1820/Introduction/issues"
   },
-  "homepage": "https://github.com/I1820/Introduction#readme"
+  "homepage": "https://github.com/I1820/Introduction#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
