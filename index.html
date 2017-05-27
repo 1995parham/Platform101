@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -93,28 +94,28 @@
             <h2>Major Components in Management API</h2>
             <dl>
               <dt>Attributes (RO)<dt>
-                  <dd>Fairly static properties of a modeled object</dd>
-                  <dt>Statistics (RO)</dt>
-                  <dd>Useful information about what a system has been doing</dd>
-                  <dt>States (RO)</dt>
-                  <dd>The current condition of a system</dd>
-                  <dt>Settings (WO)</dt>
-                  <dd>Value of system parameters</dd>
-                </dl>
-              </section>
-              <section>
-                <h2>Lamp Model in I1820</h2>
-                <pre>
+              <dd>Fairly static properties of a modeled object</dd>
+              <dt>Statistics (RO)</dt>
+              <dd>Useful information about what a system has been doing</dd>
+              <dt>States (RO)</dt>
+              <dd>The current condition of a system</dd>
+              <dt>Settings (WO)</dt>
+              <dd>Value of system parameters</dd>
+            </dl>
+          </section>
+          <section>
+            <h2>Lamp Model in I1820</h2>
+            <pre>
 {
     "type": "lamp",
     "statistics": [],
     "master": "actuator",
     "settings": [{name: "on", type: "bool"}]
 }
-              </pre>
-              </section>
-            </section>
-            <section>
+            </pre>
+          </section>
+        </section>
+        <section>
               <section>
                 <h2>I1820 Features</h2>
               </section>
@@ -179,26 +180,23 @@
                 </ul>
               </section>
             </section>
-            <section>
-              <section>
-                <h2>Guidelines for Projects on I1820</h2>
-              </section>
-            </section>
-            <script src="lib/js/head.min.js"></script>
-            <script src="js/reveal.js"></script>
+          </div>
+        </div>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
 
-            <script>
-              // More info https://github.com/hakimel/reveal.js#configuration
-Reveal.initialize({
-  history: true,
-  controls: true,
-  slideNumber: true,
+        <script>
+          // More info https://github.com/hakimel/reveal.js#configuration
+          Reveal.initialize({
+            history: true,
+            controls: true,
+            slideNumber: true,
 
-  // More info https://github.com/hakimel/reveal.js#dependencies
-  dependencies: [
-    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-  ]
-});
-            </script>
-          </body>
-        </html>
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+              { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+            ]
+          });
+        </script>
+  </body>
+</html>
