@@ -1,0 +1,182 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Introduction</title>
+
+    <link rel="stylesheet" href="css/aolab.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/solarized.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Github buttons js -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <img src="/logo/logo-md.png" style="height: 250px;" />
+          <h2>Introduction to</h2>
+          <h1>I1820</h1>
+          <h5>IoT Middleware Team</h5>
+          <h6><a href="https://aolab.github.io/">@AoLab</a></h6>
+        </section>
+        <section>
+          <h2>Architecture</h2>
+        </section>
+        <section>
+          <section>
+            <h2>I1820 Information Model</h2>
+          </section>
+          <section>
+            <h2>Key Issues in Information Model</h2>
+            <ul>
+              <li>Overall structure: Flat vs. Hierarchal</li>
+              <ul>
+                <li>Hierarchal is more powerful</li>
+              </ul>
+              <li>Object orientation</li>
+              <ul>
+                <li>Object oriented is more powerful</li>
+                <li>Inheritance?</li>
+                <li>Multiple parent? NO</li>
+              </ul>
+              <li>It is completely different from SNMP</li>
+              <ul>
+                <li>The tree shows the inheritance hierarchy</li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h2>Information Model</h2>
+            <ul>
+              <li>Provide information model with I1820 component</li>
+              <li>Communication model based on HTTP and WebSocket(Socket.io)</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Major Components in Management API</h2>
+            <dl>
+              <dt>Attributes (RO)<dt>
+                  <dd>Fairly static properties of a modeled object</dd>
+                  <dt>Statistics (RO)</dt>
+                  <dd>Useful information about what a system has been doing</dd>
+                  <dt>States (RO)</dt>
+                  <dd>The current condition of a system</dd>
+                  <dt>Settings (WO)</dt>
+                  <dd>Value of system parameters</dd>
+                </dl>
+              </section>
+              <section>
+                <h2>Lamp Model in I1820</h2>
+                <pre>
+{
+    "type": "lamp",
+    "statistics": [],
+    "master": "actuator",
+    "settings": [{name: "on", type: "bool"}]
+}
+              </pre>
+              </section>
+            </section>
+            <section>
+              <section>
+                <h2>I1820 Features</h2>
+              </section>
+              <section>
+                <h2>Modules</h2>
+                <dl>
+                  <dt>Connectivity and Normalization</dt>
+                  <dd>Agents and libraries that ensure constant object connectivity and harmonized data formats</dd>
+                  <dt>Device Management</dt>
+                  <dd>Backend tool for the management of device status, remote software deployment and updates</dd>
+                  <dt>Processing and action management</dt>
+                  <dt>Data Visualization</dt>
+                </dl>
+              </section>
+              <section>
+                <h2>Connectivity and Normalization</h2>
+                <ul>
+                  <li>ESP Support with Native Library</li>
+                </ul>
+              </section>
+              <section>
+              </section>
+            </section>
+            <section>
+              <section>
+                <h2>I1820 Plugin System</h2>
+              </section>
+              <section>
+                <h2>Keywords</h2>
+                <dl>
+                  <dt>Chain</dt>
+                  <dd>Ordered array of plugins</dd>
+                  <dt>Plugin</dt>
+                  <dd>Customizable python code that runs on each log receiving</dd>
+                  <dt>Filter Plugin</dt>
+                  <dd>Plugin that can stop the chain if you <strong>IF</strong> is false</dd>
+                  <dt>Notifier Plugin</dt>
+                  <dd>Plugin that sends notification to your target device</dd>
+                </dl>
+              </section>
+              <section>
+                <h2>How we chain the plugins</h2>
+                <ul>
+                  <li>Create a chain</li>
+                  <li>Add filters and notifiers</li>
+                  <li>While filters return <code>True</code> chain continue to run</li>
+                  <li>While chain continue to run notifers run and notify your devices</li>
+                </ul>
+              </section>
+            </section>
+            <section>
+              <section>
+                <h2>I1820 Data Streaming !</h2>
+              </section>
+              <section>
+                <h2>What we need ?</h2>
+                <ul>
+                  <li>I1820</li>
+                  <li>Kafka</li>
+                  <li>Spark</li>
+                  <li>I1820 -- Kafka -- Spark !</li>
+                </ul>
+              </section>
+            </section>
+            <section>
+              <section>
+                <h2>Guidelines for Projects on I1820</h2>
+              </section>
+            </section>
+            <script src="lib/js/head.min.js"></script>
+            <script src="js/reveal.js"></script>
+
+            <script>
+              // More info https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+  history: true,
+  controls: true,
+  slideNumber: true,
+
+  // More info https://github.com/hakimel/reveal.js#dependencies
+  dependencies: [
+    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+  ]
+});
+            </script>
+          </body>
+        </html>
