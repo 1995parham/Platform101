@@ -96,12 +96,16 @@
           <section>
             <h2>Lamp Model in I1820</h2>
             <pre><code data-trim data-noescape>
-{
-    "type": "lamp",
-    "statistics": [],
-    "master": "actuator",
-    "settings": [{name: "on", type: "bool"}]
-}
+---
+name: lamp
+package: .standard
+
+attributes:
+  - name: vendor
+    type: string
+settings:
+  - name: on
+  type: boolean
             </code></pre>
           </section>
         </section>
