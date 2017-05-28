@@ -56,7 +56,7 @@
           <section>
             <h2>Log</h2>
             <ul>
-              <li>Log component <span class="aolab-orange">Passively</span> collects data from agents.</li>
+              <li>Log component <span class="aolab-orange">passively</span> collects data from agents</li>
               <li>Agents periodically sends data</li>
               <li>Log component stores everything into database for futher access</li>
             </ul>
@@ -66,6 +66,25 @@
             <ul>
               <li>Configuration component sets parameters on agent</li>
               <li>Settings the parameters can have side effects</li>
+              <li><span class="aolab-green">Configuration changed</span> event must be advertised</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Get</h2>
+            <ul>
+              <li>Get component <span class="aolab-orange">actively</span> collects data from agents</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Action</h2>
+            <ul>
+              <li>Run functions on agents</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Trap</h2>
+            <ul>
+              <li>Events from agents that need attention, like fault or motion detection</li>
             </ul>
           </section>
         </section>
@@ -93,7 +112,7 @@
             </ul>
           </section>
           <section>
-            <h2>Major Components in Management API</h2>
+            <h2>Major Components in SIML</h2>
             <dl>
               <dt>Attributes (RO)</dt>
               <dd>Fairly static properties of a modeled object</dd>
