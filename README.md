@@ -1,4 +1,4 @@
-# IoT101
+# Introduction to I1820
 [![Build Status](https://travis-ci.org/I1820/Introduction.svg?branch=master)](https://travis-ci.org/I1820/Introduction)
 
 ## Introduction
