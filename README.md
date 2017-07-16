@@ -1,9 +1,9 @@
 # IoT101
-[![Build Status](https://travis-ci.org/AoLab/IoT101.svg?branch=master)](https://travis-ci.org/AoLab/IoT101)
+[![Build Status](https://travis-ci.org/1995parham/IoT101.svg?branch=master)](https://travis-ci.org/1995parham/IoT101)
 
 ## Introduction
 
-Story of our Lab in Platforms Design and Development, from beginning until now ...
+Story of Platforms Design and Development, from beginning until now ...
 
 ## Presented in:
 
