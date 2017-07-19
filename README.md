@@ -1,5 +1,6 @@
 # IoT101
 [![Travis](https://img.shields.io/travis/1995parham/IoT101.svg?style=flat-square)](https://travis-ci.org/1995parham/IoT101)
+![license](https://img.shields.io/github/license/1995parham/IoT101.svg?style=flat-square)
 
 
 ## Introduction
