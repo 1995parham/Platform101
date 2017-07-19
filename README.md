@@ -1,5 +1,6 @@
 # IoT101
-[![Build Status](https://travis-ci.org/1995parham/IoT101.svg?branch=master)](https://travis-ci.org/1995parham/IoT101)
+[![Travis](https://img.shields.io/travis/1995parham/IoT101.svg?style=flat-square)](https://travis-ci.org/1995parham/IoT101)
+
 
 ## Introduction
 
