@@ -13,6 +13,7 @@ Story of Platforms Design and Development, from beginning until now ...
 - Yalda Night of CEIT - 2016
 - 2nd Iran IoT Conference - 2017
 - 9th Linux Festival - 2017
+- SSC IoT Summer Course - 2017
 
 ## Special Thanks
 
