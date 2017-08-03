@@ -75,18 +75,10 @@
           </section>
         </section>
         <section>
-          <ul>
-            <li>Introduction</li>
-            <li>IoT Platforms, Why ?</li>
-            <li>Platforms Review</li>
-          </ul>
+          <div class="toc"></div>
         </section>
         <section>
-          <ul>
-            <li class="aolab-select">Introduction</li>
-            <li>IoT Platforms, Why ?</li>
-            <li>Platforms Review</li>
-          </ul>
+          <div class="toc" data-selected="Introduction"></div>
         </section>
         <section>
           <section>
@@ -524,7 +516,12 @@
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/toc.js', async: true, callback: function() { toc.initToCOnLoad([
+            'Introduction',
+            'IoT Platforms, Why ?',
+            'Platforms Review'
+          ])}}
 				]
 			});
 		</script>
