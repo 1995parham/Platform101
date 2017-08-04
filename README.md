@@ -1,5 +1,5 @@
 # IoT101
-[![Travis](https://img.shields.io/travis/1995parham/IoT101.svg?style=flat-square)](https://travis-ci.org/1995parham/IoT101)
+[![Travis](https://img.shields.io/travis/bambil/IoT101.svg?style=flat-square)](https://travis-ci.org/bambil/IoT101)
 ![license](https://img.shields.io/github/license/1995parham/IoT101.svg?style=flat-square)
 
 
@@ -17,6 +17,8 @@ Story of Platforms Design and Development, from beginning until now ...
 
 ## Special Thanks
 
+- Bambil Organization
+- Nahal Corporation
 - Dr.Bakhshi
 - E.Jalalpour
 - [Iran IoT Forum](http://www.iraniotforum.org/)
