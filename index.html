@@ -472,24 +472,41 @@
         <section>
           <section>
             <h2>Bamboo</h2>
-            <a href="https://I1820.github.io"><img src="img/bamboo.png" alt="Bamboo logo" height="300px"></a>
+            <a href="https://bambil.github.io"><img src="img/bamboo.png" alt="Bamboo logo" height="300px"></a>
           </section>
           <section>
-            <h2>What is I1820?</h2>
+            <h2>What is Bamboo?</h2>
             <p>
-              I1820 is a free open source platform which provides
-              <span class="material-bold">discovery</span>, <span class="material-italic">data collection</span> and <span class="material-bold">configuration</span> services
-              based on MQTT.
-              I1820 implements a REST API for controlling the things
-              and it stores all collected data in a Time-Series database named InfluxDB.
+              Bamboo is a product of <a href="https://github.com/bambil">Bambil</a> and former developers of I1820, which provides:
+            </p>
+            <ul>
+              <li>Discovery Service</li>
+              <li>Data Collection Service</li>
+              <li>Configuration Service</li>
+              <li>Realtime Service</li>
+            </ul>
+            <p>
+              Bamboo uses MQTT as communication protocol for things and HTTP as API provider for human users.
+              It stores all collected data in a Time-Series database named InfluxDB.
             </p>
           </section>
           <section>
-            <h2>What does I1820 do for us?</h2>
+            <h2>Bamboo Architecture</h2>
+            <p>
+              Bamboo tries to implement IoT platform in microservices archiecture for the first-time in Iran.
+              Thanks to Bambil founder knowledge, Bamboo uses last technologies in infrastructure area.
+            </p>
+          </section>
+          <section>
+            <h2>What does Bamboo do for us?</h2>
             <ul>
               <li>Collecting data from the endpoints</li>
+              <ul>
+                <li><span class="material-italic">Active</span>: Fetchs data from the agents using requests</li>
+                <li><span class="material-bold">Passive</span>: Collects data from agent's periodic push</li>
+              </ul>
               <li>Schema less but model based thing definition</li>
-              <li>MongoDB - InfluxDB supported</li>
+              <li>InfluxDB supported</li>
               <li>Provides streams for data analyzers</li>
             </ul>
           </section>
