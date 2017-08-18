@@ -5,7 +5,10 @@
 
 ## Introduction
 
-Story of Platforms Design and Development, from beginning until now ...
+This presentation which includes many topics like introduction to IoT, why platform is important and ...
+was made in the Aolab where is a closed laboratory in Amirkabir university of technology.
+You may use this presentation in order to get familar with IoT platfroms implementation and concepts for
+begining your carrier in IoT platform development.
 
 ## Presented in:
 
