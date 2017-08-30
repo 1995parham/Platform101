@@ -5,12 +5,13 @@
 
 ## Introduction
 
-This presentation which includes many topics like introduction to IoT, why platform is important and ...
-was made in the Aolab where is a closed laboratory in Amirkabir university of technology.
-You may use this presentation in order to get familar with IoT platfroms implementation and concepts for
-begining your carrier in IoT platform development.
+This presentation including many topics like introduction to IoT, why platform is important and ...
+was made in the Aolab where is a closed (2015-2017) laboratory in Amirkabir university of technology.
 
-## Presented in:
+You may use this presentation in order to get familar with IoT platfroms implementation and concepts for
+begining your future carrier in IoT platform development.
+
+## Presented in
 
 - Let's build smart CEIT - 2015
 - Yalda Night of CEIT - 2016
