@@ -22,9 +22,9 @@ begining your future carrier in IoT platform development.
 
 ## Special Thanks
 
-- Bambil Organization
-- Nahal Corporation
-- Dr.Bakhshi
-- E.Jalalpour
+- [Bambil Organization](https://bambil.github.io/)
+- [Nahal Corporation](http://www.nahalco.net/)
+- [Dr.Bakhshi](http://ceit.aut.ac.ir/~bakhshis/)
+- [E.Jalalpour](http://ceit.aut.ac.ir/~jalalpour/)
 - [Iran IoT Forum](http://www.iraniotforum.org/)
 - Amirkabir CEIT SSC
