@@ -1,6 +1,6 @@
 # IoT101
 [![Travis](https://img.shields.io/travis/bambil/IoT101.svg?style=flat-square)](https://travis-ci.org/bambil/IoT101)
-![license](https://img.shields.io/github/license/1995parham/IoT101.svg?style=flat-square)
+![license](https://img.shields.io/github/license/bambil/IoT101.svg?style=flat-square)
 ![iot101](https://img.shields.io/badge/bambil-iot101-green.svg?style=flat-square)
 
 
