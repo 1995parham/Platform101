@@ -144,6 +144,8 @@
             <li>Fog Computing</li>
             <li>Machine Learning</li>
             <li>Wireless Sensor Networks</li>
+            <li>SDN/IoT</li>
+            <li>...</li>
           </ul>
         </section>
         <section>
@@ -206,6 +208,9 @@
           </ul>
         </section>
         <section>
+          <h2>IoT Platforms contains IoT Middlewars</h2>
+        </section>
+        <section>
           <h2>Middleware is a connectivity layer</h2>
           <img src="img/platforms-1.png" alt="Platforms over view">
         </section>
@@ -214,19 +219,29 @@
           <img src="img/platforms-2.png" alt="Platforms complex view">
         </section>
         <section>
-          <h2>IoT Platforms contains IoT Middlewars</h2>
-        </section>
-        <section>
           <section>
             <h2>IoT Platforms Features</h2>
             <ul>
               <li class="material-bold">Support of heterogeneous devices</li>
               <ul>
-                <li>Generated SDK</li>
-                <li>Library</li>
+                <li>Things-Platform Connectivity</li>
+                <ul>
+                  <li>Generated SDK</li>
+                  <li>Library</li>
+                </ul>
+                <li>Thing Data Modeling</li>
               </ul>
               <li>Open Source</li>
-              <li class="material-italic">REST API</li>
+              <li class="material-italic">API</li>
+              <ul>
+                <li>ReST (Representational State Transfer)</li>
+                <li>RPC (Remote Procedure Call)</li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h2>IoT Platforms Features</h2>
+            <ul>
               <li>Data Access Control</li>
               <li>Type:
                 <ul>
@@ -242,9 +257,10 @@
             <ul>
               <li>Services:
                 <ul>
+                  <li>Data Collection</li>
                   <li>Monitoring</li>
                   <li>Event Delivering</li>
-                  <li>(Service) Discovery</li>
+                  <li>(Thing) Discovery</li>
                   <li>Big Data Streaming</li>
                 </ul>
               </li>
@@ -363,6 +379,38 @@
             <img src="img/kaa-high-level-architecture.png" alt="kaa-high-level-architecture" width="500px">
           </section>
           <section>
+            <h2>Kaa Server</h2>
+            <p>
+              The Kaa server acts as a foundation for your custom-tailored IoT back-end system.
+              It offers a number of mechanisms for internal customization and integration with external systems:
+            </p>
+            <ul>
+              <li>REST interfaces for integration with product-specific services</li>
+              <li>Log appenders for integration with analytics</li>
+              <li>pluggable implementations of custom transports</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Kaa Server</h2>
+            <p>The Kaa server was designed to handle <span class="material-bold">millions of connected devices</span> under peak pressure without ever getting tired.</p>
+            <img src="img/kaa-server.svg" alt="kaa-server" width="500px" style="background-color: #666;">
+          </section>
+          <section>
+            <h2>Kaa Data Model</h2>
+            <ul>
+              <li>Works with structured and unstructured data</li>
+              <li>Well-structured data provides excellent material for any manipulation and analytics</li>
+              <li>This kind of data also helps abstract out any unimportant details of the low-level implementation and your hardware.</li>
+              <li>Kaa ensures that even gadgets based on very different technologies can be managed and operated identically, as long as they share the same set of data schemas.</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Kaa Generated SDK</h2>
+            <ul>
+              <li>Kaa endpoint SDKs are available in Java, C++, and C, and are designed to be embedded into your client application (or firmware).</li>
+              <li>They handle client-server communication, authentication, data marshalling, encryption, persistence, and other functions provided by the platform.</li>
+          </section>
+          <section>
             <h2>What does kaa do for us?</h2>
             <ul>
               <li>Messaging across endpoints</li>
@@ -406,6 +454,7 @@
             <ul>
               <li>Open Source</li>
               <li>PaaS</li>
+              <li>The ground-breaking Kaa 1.0.0 will be available soon for the pre-release trial among early subscribers.</li>
             </ul>
           </section>
           <section>
