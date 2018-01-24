@@ -20,6 +20,7 @@ begining your future carrier in IoT platform development.
 - 9th Linux Festival - 2017
 - SSC IoT Summer Course - 2017
 - Saman Fekri BSc Thesis - 2017
+- 7th Persian Gulf Elecomp - 2018
 
 ## Special Thanks
 
