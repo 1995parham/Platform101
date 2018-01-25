@@ -26,6 +26,8 @@ begining your future carrier in IoT platform development.
 
 - [Bambil Organization](https://bambil.github.io/)
 - [Dr.Bakhshi](http://ceit.aut.ac.ir/~bakhshis/)
+- Dr.Rasti
 - [E.Jalalpour](http://ceit.aut.ac.ir/~jalalpour/)
 - [Iran IoT Forum](http://www.iraniotforum.org/)
+- [Magfa](https://magfa.com)
 - Amirkabir CEIT SSC
