@@ -32,3 +32,15 @@ begining your future carrier in IoT platform development.
 - [Iran IoT Forum](http://www.iraniotforum.org/)
 - [Magfa](https://magfa.com)
 - Amirkabir CEIT SSC
+
+
+## IoT Courses
+### SSC Summer Course 2017
+
+- IoT big picture
+- why using smart things alone? when things comes together ...
+- IoT platfroms
+- Kaa!? The Platform
+- Temperature system implementation over kaa
+
+### SSC Summer Course 2018
