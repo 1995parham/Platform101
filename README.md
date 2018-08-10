@@ -5,6 +5,7 @@
 
 We start from here to build the future of I1820.
 
-## Special Thanks
-
+## In The Memory of
+- 18.20 Velenjak
+- Iman Tabrizian
 - Dr.Bakhshi
