@@ -1,5 +1,5 @@
 # Introduction to I1820
-[![Build Status](https://travis-ci.org/I1820/Introduction.svg?branch=master)](https://travis-ci.org/I1820/Introduction)
+[![Travis branch](https://img.shields.io/travis/I1820/Introduction/master.svg?style=flat-square)](https://travis-ci.org/I1820/Introduction)
 
 ## Introduction
 
