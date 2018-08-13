@@ -44,3 +44,7 @@ begining your future carrier in IoT platform development.
 - Temperature system implementation over kaa
 
 ### SSC Summer Course 2018
+
+#### Requirements
+* Elementary Python
+
