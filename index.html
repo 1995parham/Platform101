@@ -6,9 +6,8 @@
 
     <title>Introduction</title>
 
-    <link rel="stylesheet" href="css/material.css">
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/solarized.css">
+    <link rel="stylesheet" href="css/theme/material.css">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -29,11 +28,9 @@
     <div class="reveal">
       <div class="slides">
         <section>
-          <img src="//i1820.github.io/logo/logo-md.png" style="height: 250px;" alt="I1820 Logo">
           <h2>Introduction to</h2>
           <h1>I1820</h1>
           <h5>IoT Middleware Team</h5>
-          <h6><a href="https://aolab.github.io/">@AoLab</a></h6>
         </section>
         <section>
           <h2>In the memory of our friends who are <span class="material-select">not</span> among us right now</h2>
@@ -44,50 +41,15 @@
           </section>
           <section>
             <h2>Big Picture</h2>
-            <img src="//i1820.github.io/img/architecture.png" style="height: 500px;" alt="Architecture">
+            <!-- <img src="//i1820.github.io/img/architecture.png" style="height: 500px;" alt="Architecture"> -->
           </section>
           <section>
             <h2>Components</h2>
             <ul>
-              <li>Log</li>
-              <li>Configuration</li>
-              <li>Get</li>
-              <li>Action</li>
-              <li>Trap</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Log</h2>
-            <ul>
-              <li>Log component <span class="aolab-orange">passively</span> collects data from agents</li>
-              <li>Agents periodically sends data</li>
-              <li>Log component stores everything into database for futher access</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Configuration</h2>
-            <ul>
-              <li>Configuration component sets parameters on agent</li>
-              <li>Settings the parameters can have side effects</li>
-              <li><span class="aolab-green">Configuration changed</span> event must be advertised</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Get</h2>
-            <ul>
-              <li>Get component <span class="aolab-orange">actively</span> collects data from agents</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Action</h2>
-            <ul>
-              <li>Run functions on agents</li>
-            </ul>
-          </section>
-          <section>
-            <h2>Trap</h2>
-            <ul>
-              <li>Events from agents that need attention, like fault or motion detection</li>
+              <li>PM</li>
+              <li>DM</li>
+              <li>Link (Uplink/Downlink)</li>
+              <li>ElRunner</li>
             </ul>
           </section>
         </section>
