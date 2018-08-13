@@ -1,5 +1,6 @@
 # IoT101
-[![Travis](https://img.shields.io/travis/bambil/IoT101.svg?style=flat-square)](https://travis-ci.org/bambil/IoT101)
+[![Travis](https://img.shields.io/travis/com/I1820/Platform101.svg?style=flat-square)](https://travis-ci.com/I1820/Platform101)
+[![Codacy Badge](https://img.shields.io/codacy/grade/5e1c0d0e79404c19be557ed3797f8d21.svg?style=flat-square)](https://www.codacy.com/project/i1820/Platform101/dashboard)
 
 ## Introduction
 
