@@ -1,8 +1,6 @@
 # IoT101
-[![Travis](https://img.shields.io/travis/bambil/IoT101.svg?style=flat-square)](https://travis-ci.org/bambil/IoT101)
-![license](https://img.shields.io/github/license/bambil/IoT101.svg?style=flat-square)
-![iot101](https://img.shields.io/badge/bambil-iot101-green.svg?style=flat-square)
-
+[![Travis](https://img.shields.io/travis/com/I1820/Platform101.svg?style=flat-square)](https://travis-ci.com/I1820/Platform101)
+[![Codacy Badge](https://img.shields.io/codacy/grade/5e1c0d0e79404c19be557ed3797f8d21.svg?style=flat-square)](https://www.codacy.com/project/i1820/Platform101/dashboard)
 
 ## Introduction
 
@@ -26,8 +24,9 @@ begining your future carrier in IoT platform development.
 ## Special Thanks
 
 - [Bambil Organization](https://bambil.github.io/)
+- [I.Tabrizian](https://github.com/tabrizian)
 - [Dr.Bakhshi](http://ceit.aut.ac.ir/~bakhshis/)
-- Dr.Rasti
+- [Dr.Rasti](https://scholar.google.com/citations?user=zb8pjMYAAAAJ&hl=en)
 - [E.Jalalpour](http://ceit.aut.ac.ir/~jalalpour/)
 - [Iran IoT Forum](http://www.iraniotforum.org/)
 - [Magfa](https://magfa.com)
