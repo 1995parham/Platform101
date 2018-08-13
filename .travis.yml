@@ -3,7 +3,7 @@ rvm:
 - 2.2.5
 
 install: gem install html-proofer
-script: htmlproofer .
+script: htmlproofer --check_html true .
 
 # branch whitelist, only for GitHub Pages
 branches:
