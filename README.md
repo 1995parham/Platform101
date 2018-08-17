@@ -4,11 +4,11 @@
 
 ## Introduction
 
-This presentation including many topics like introduction to IoT, why platform is important and ...
-was made in the Aolab where is a closed (2015-2017) laboratory in Amirkabir university of technology.
+This presentation includes many topics like introduction to IoT, why the platform is important and etc.
+It made in the [Aolab](http://aolab.github.io/) where is a closed (2015-2017) laboratory in Amirkabir University of technology.
 
-You may use this presentation in order to get familar with IoT platfroms implementation and concepts for
-begining your future carrier in IoT platform development.
+You may use this presentation to get familiar with IoT platforms implementation and concepts
+for beginning your future carrier in IoT platform development.
 
 ## Presented in
 
@@ -41,9 +41,3 @@ begining your future carrier in IoT platform development.
 - IoT platfroms
 - Kaa!? The Platform
 - Temperature system implementation over kaa
-
-### SSC Summer Course 2018
-
-#### Requirements
-* Elementary Python
-
