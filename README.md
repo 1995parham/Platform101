@@ -23,6 +23,7 @@ for beginning your future carrier in IoT platform development.
 
 ## Special Thanks
 
+- [Velenjak](https://en.wikipedia.org/wiki/Velenjak)
 - [Bambil Organization](https://bambil.github.io/)
 - [I.Tabrizian](https://github.com/tabrizian)
 - [E.Jalalpour](http://ceit.aut.ac.ir/~jalalpour/)
