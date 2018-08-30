@@ -1,6 +1,6 @@
 # Introduction to IoT Platforms
 [![Travis](https://img.shields.io/travis/com/I1820/Platform101.svg?style=flat-square)](https://travis-ci.com/I1820/Platform101)
-[![Codacy Badge](https://img.shields.io/codacy/grade/5e1c0d0e79404c19be557ed3797f8d21.svg?style=flat-square)](https://www.codacy.com/project/i1820/Platform101/dashboard)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5e1c0d0e79404c19be557ed3797f8d21)](https://www.codacy.com/app/i1820/Platform101?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=I1820/Platform101&amp;utm_campaign=Badge_Grade)
 
 ## Introduction
 
