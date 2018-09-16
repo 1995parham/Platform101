@@ -203,15 +203,13 @@
           </ul>
         </section>
         <section>
-          <h2>IoT Platforms contains IoT Middlewars</h2>
-        </section>
-        <section>
-          <h2>Middleware is a connectivity layer</h2>
-          <img src="img/platforms-1.png" alt="Platforms over view">
-        </section>
-        <section>
-          <h2>Middleware is a connectivity layer (Complex View)</h2>
-          <img src="img/platforms-2.png" alt="Platforms complex view">
+          <section>
+            <h2>IoT Platforms contains IoT Middlewars</h2>
+          </section>
+          <section>
+            <h2>Middleware is a connectivity layer</h2>
+            <img src="img/platforms-1.png" alt="Platforms over view">
+          </section>
         </section>
         <section>
           <section>
@@ -219,13 +217,9 @@
             <ul>
               <li class="material-bold">Support of heterogeneous devices</li>
               <ul>
-                <li>Things-Platform Connectivity</li>
-                <ul>
-                  <li>Generated SDK</li>
-                  <li>Library</li>
-                  <li>Encoder/Decoder</li>
-                </ul>
-                <li>Thing Data Modeling</li>
+                <li>LoRa things that send thier data using cbor</li>
+                <li>nRF nodes that send their data using unreliable way</li>
+                <li>...</li>
               </ul>
               <li>Open Source</li>
               <li class="material-italic">API</li>
@@ -238,7 +232,7 @@
           <section>
             <h2>IoT Platforms Features</h2>
             <ul>
-              <li>Data Access Control</li>
+              <li>(Data) Access Control</li>
               <li>Type:
                 <ul>
                   <li>PaaS (Platform-as-a-Service)</li>
@@ -260,6 +254,107 @@
                   <li>Big Data Streaming</li>
                 </ul>
               </li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>How to connect?</h2>
+            <img src="img/how-to-connect.jpg" alt="How to connect">
+          </section>
+          <section>
+            <h2>Many ways</h2>
+            <ul>
+              <li>LoRa, nRF, Ethernet, ...</li>
+              <li>Custom, IP, TCP, HTTP, MQTT, CoAP, ...</li>
+            </ul>
+          </section>
+          <section>
+            <h2>One Solution</h2>
+            <img src="img/platforms-2.png" alt="Platforms complex view">
+          </section>
+          <section>
+            <ul>
+              <li>By using gateways every non-TCP protocol can be changed to TCP</li>
+              <li>By using gateways every non-(HTTP MQTT ...) protocol can be changed to (HTTP MQTT ...)</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>How to communicate?</h2>
+            <ul>
+              <li>JSON</li>
+              <li>CBOR</li>
+              <li>ASN.1</li>
+              <li>...</li>
+            </ul>
+          </section>
+          <section>
+            <h2>JSON?</h2>
+            <pre><code data-trim data-noescape class="json">
+{
+    "timestamp": "Mon Feb 20 21:35:00 1995",
+    "states": {
+        "temperature": 24,
+        "humidity": 10
+    }
+}
+	          </code></pre>
+            <pre><code data-trim data-noescape class="json">
+{
+    "temperature": 24,
+    "humidity": 10,
+    "status": "online"
+}
+	          </code></pre>
+            <pre><code data-trim data-noescape class="json">
+{
+    "101": 10,
+    "102": 10,
+    "103": 1024,
+    "201": 1.24
+}
+	          </code></pre>
+          </section>
+          <section>
+            <h2>CBOR?</h2>
+            <pre><code data-trim data-noescape class="json">
+{
+    "101": 10,
+    "102": 10,
+    "103": 1024,
+    "201": 1.24
+}
+	          </code></pre>
+            <pre><code data-trim data-noescape class="nohighlight">
+A4                     # map(4)
+   63                  # text(3)
+      313031           # "101"
+   0A                  # unsigned(10)
+   63                  # text(3)
+      313032           # "102"
+   0A                  # unsigned(10)
+   63                  # text(3)
+      313033           # "103"
+   19 0400             # unsigned(1024)
+   63                  # text(3)
+      323031           # "201"
+   FB 3FF3D70A3D70A3D7 # primitive(4608263282710586327)
+	          </code></pre>
+          </section>
+          <section>
+            <ul>
+              <li>Things-Platform Interoperability</li>
+              <ul>
+                <li>Generated SDK</li>
+                <li>Library</li>
+                <li>Custom Encoder/Decoder</li>
+              </ul>
+              <li>Thing Data Validation</li>
+              <ul>
+                <li>Models</li>
+              </ul>
             </ul>
           </section>
         </section>
@@ -305,6 +400,9 @@
             </dl>
           </section>
         </section>
+        <section>
+          <div class="toc" data-selected="Connectivity"></div>
+        </section> 
         <section>
           <h2>Which protocol we must use for connectivity?</h2>
           <ul>
@@ -742,6 +840,7 @@
             callback: function() { toc.initToCOnLoad([
               'IoT Big Picture',
               'IoT Platforms, What & Why?',
+              'Connectivity',
               'Review on Popular Platforms'
             ]); }
           }
