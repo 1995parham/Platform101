@@ -21,6 +21,10 @@ const toc = {
           node.className += 'material-select'
         }
 
+        if (section.dataset.selected && titles[parseInt(section.dataset.selected)] === title) {
+          node.className += 'material-select'
+        }
+
         node.appendChild(document.createTextNode(title));
         titlesListElement.appendChild(node);
       }
