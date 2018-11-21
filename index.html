@@ -8,12 +8,12 @@
 
     <link rel="icon" type="image/icon" href="img/favicon.png">
 
+    <link rel="stylesheet" href="css/share.css">
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/material.css">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
-
 
     <!-- Printing and PDF exports -->
     <script>
@@ -132,16 +132,16 @@
           <img src="img/iot-big-picture.png" alt="iot-big-picture">
         </section>
         <!--
-        <section>
+          <section>
           <h2>Research Topics in IoT</h2>
           <ul>
-            <li>Fog Computing</li>
-            <li>Machine Learning</li>
-            <li>Wireless Sensor Networks</li>
-            <li>SDN/IoT</li>
-            <li>...</li>
+          <li>Fog Computing</li>
+          <li>Machine Learning</li>
+          <li>Wireless Sensor Networks</li>
+          <li>SDN/IoT</li>
+          <li>...</li>
           </ul>
-        </section>
+          </section>
         -->
         <section>
           <div class="toc" data-selected="IoT Platforms, What & Why?"></div>
@@ -153,6 +153,52 @@
               The IoT technologies in sync up with <span class="material-bold">cloud</span>
               infrastructures are to result in people-centric <span class="material-italic">smarter</span> environments.
             </p>
+          </section>
+          <section>
+            <h2>IoT Maturity Model</h2>
+            <div class="fragment fade-in-then-out">
+              <h3>Primitive</h3>
+              <ul>
+                <li>Siloed Sensors</li>
+                <li>Isolated M2M Applications</li>
+                <li>Limited Functions</li>
+              </ul>
+            </div>
+            <div class="fragment fade-in-then-out">
+              <h3>Tentative</h3>
+              <ul>
+                <li>Connected Devices</li>
+                <li>Units Inter-communicated</li>
+                <li>Lightweight Protocols</li>
+              </ul>
+            </div>
+            <div class="fragment fade-in-then-out">
+              <h3>Advanced</h3>
+              <ul>
+                <li>Managed Service</li>
+                <li>Secured Remote Management</li>
+                <li>Reliable QoS</li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <h2>IoT Maturity Model</h2>
+            <div class="fragment fade-in-then-out">
+              <h3>Dynamic</h3>
+              <ul>
+                <li>Smart Decision</li>
+                <li>Contextual Analytics Applied</li>
+                <li>Harvest of Knowledge and Insights</li>
+              </ul>
+            </div>
+            <div class="fragment fade-in">
+              <h3>Optimized</h3>
+              <ul>
+                <li>Converged Tech.</li>
+                <li>Interplay with Other Disciplines</li>
+                <li>Unified Intelligent Solutions</li>
+              </ul>
+            </div>
           </section>
           <section>
             <h2>What is an IoT platform ?</h2>
@@ -846,7 +892,6 @@ A4                     # map(4)
         </section>
       </div>
     </div>
-    <a href="https://github.com/I1820/Platform101" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="img/forkme_right_orange.png" alt="Fork me on GitHub"></a>
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.js"></script>
 
@@ -856,6 +901,8 @@ A4                     # map(4)
         history: true,
         controls: true,
         slideNumber: true,
+
+        margin: 0.3,
 
         // More info https://github.com/hakimel/reveal.js#dependencies
         dependencies: [
@@ -891,5 +938,11 @@ A4                     # map(4)
         ]
       });
     </script>
+
+    <!-- logos and advertising -->
+    <a href="https://github.com/I1820/Platform101" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="img/forkme_right_orange.png" alt="Fork me on GitHub"></a>
+    <div class="share" style="position: absolute; bottom: 16px; left: 50%; margin-left: -139px; z-index: 20;">
+      <a class="share-note" href="https://avidnet.github.io">Supported by Avidnet Technology</a>
+    </div>
   </body>
 </html>
