@@ -1,0 +1,26 @@
+.share a {
+        display: inline-block;
+        height: 34px;
+        line-height: 32px;
+        padding: 0 10px;
+        color: #1ecfd6;
+        font-family: Helvetica, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        vertical-align: top;
+        text-transform: uppercase;
+        box-sizing: border-box;
+}
+.share .share-note {
+        line-height: 30px;
+}
+.share svg {
+        vertical-align: middle;
+}
+.share a + a {
+        margin-left: 10px;
+}
+.share-note {
+        border: 2px solid #1ecfd6;
+}
