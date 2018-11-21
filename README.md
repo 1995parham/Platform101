@@ -31,6 +31,10 @@ for beginning your future carrier in IoT platform development.
 - [Magfa](https://magfa.com)
 - Amirkabir CEIT SSC
 
+## Selected References
+- Dr. Majid Rasouli Disfani's presentation at 7th Persian Gulf Elecomp
+- Dr. Mohammad Kamrani presentation at 7th Persian Gulf Elecomp
+
 
 ## IoT Courses
 ### SSC Summer Course 2017
