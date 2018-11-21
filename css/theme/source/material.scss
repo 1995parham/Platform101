@@ -29,27 +29,57 @@ $linkColor: #FF5722;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #FFEB3B;
 
-.reveal a {
-  line-height: 1.3em;
-}
-
 .material {
 	&-select {
 		color: #FF80AB;
 	}
 
 	&-italic {
-		font-style: italic;
+		font-style: italic !IMPORTANT;
 		color: #69F0AE;
 	}
 
 	&-bold {
-		font-weight: bold;
+		font-weight: bold !IMPORTANT;
 		color: #FF9108;
 	}
 }
 
+.material-hl {
+        &-orange {
+                color: #F57C00;
+        }
+
+        &-green {
+                color: #76FF03;
+        }
+
+        &-blue {
+                color: #40C4FF;
+        }
+
+        &-cyan {
+                color: #18FFFF;
+        }
+
+        &-yellow {
+                color: #FFEE58;
+        }
+
+        &-pink {
+                color: #FF4081;
+        }
+}
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal a {
+        line-height: 1.3em;
+}
+
+.reveal blockquote {
+        background-color: #FFC107;
+        color: white;
+}
