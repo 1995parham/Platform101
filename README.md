@@ -20,6 +20,7 @@ for beginning your future carrier in IoT platform development.
 - Saman Fekri BSc Thesis - 2017
 - 7th Persian Gulf Elecomp - 2018
 - Instrumentation Course Teaching Assistent EE - 2018
+- Shahid Beheshti University (Dr.Haghighi) - 2019
 
 ## Special Thanks
 
