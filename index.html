@@ -44,6 +44,7 @@
             <h2>Who I am?</h2>
             <p><i class="material-icons">school</i> BSc. Software Engineering @ Amirkabir University of Technology</p>
             <p><i class="material-icons">school</i> MSc. Computer Networks @ Amirkabir University of Technology</p>
+            <p><i class="material-icons">school</i> PhD. Computer Networks @ Amirkabir University of Technology</p>
             <p><i class="material-icons">domain</i> Have been in IoT/Platforms since June 2015 (Ordibehesht 1394)</p>
             <img src="img/ceit-logo.png" alt="ceit-logo" width="100px">
             <img src="img/aut-logo.png" alt="aut-logo" width="100px">
@@ -313,6 +314,59 @@
                 </ul>
               </li>
             </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>Big Data Streaming</h2>
+          </section>
+          <section>
+            <h3>Batch Processing</h3>
+            <ul>
+              <li>High Latency</li>
+              <li>Static Files</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Stream Processing</h3>
+            <ul>
+              <li>Low Latency</li>
+              <li>Event Streams</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Apache Flink</h3>
+            <img src="img/flink.jpg" alt="flink" />
+          </section>
+          <section>
+            <img src="img/flink-diagram.png" alt="flink-diagram" />
+          </section>
+          <section>
+            <h3>Programs and Dataflows</h3>
+            <ul>
+              <li>The basic building blocks of Flink programs are streams and transformations.</li>
+              <li>A stream is a (potentially never-ending) flow of data records.</li>
+              <li>A transformation is an operation that takes one or more streams as input, and produces one or more output streams as a result.</li>
+            </ul>
+          </section>
+          <section>
+            <img src="img/program_dataflow.svg" alt="program_dataflow" />
+          </section>
+          <section>
+            <h3>Windows</h3>
+            <ul>
+              <li>Aggregating events (e.g., counts, sums) works differently on streams than in batch processing.</li>
+              <li>Aggregates on streams (counts, sums, etc), are scoped by windows</li>
+              <ul>
+                <li>count over the last 5 minutes</li>
+                <li>sum of the last 100 elements</li>
+              </ul>
+            </ul>
+            <img src="img/windows.svg" alt="windows" />
+          </section>
+          <section>
+            <h4>Batch as a Special case of Streaming, processing bounded and unbounded data streams in Apache Flink</h4>
+            <img src="img/bounded-unbounded.png" alt="bounded-unbounded" />
           </section>
         </section>
         <section>
@@ -600,6 +654,8 @@ A4                     # map(4)
             <h2>Collecting data from endpoints</h2>
             <ul>
               <li>Kaa provides rich capabilities for collecting and storing structured data from endpoints</li>
+              <li>The data collection subsystem in Kaa is designed to collect records (logs) of pre-configured structure</li>
+              <li>it store them in the client, transfer from the client to Operations service, persist on server for further processing, or submit to the immediate stream analysis</li>
             </ul>
           </section>
           <section>
@@ -686,6 +742,10 @@ A4                     # map(4)
           </section>
           <section>
             <img src="img/thingsboard-rule-engine.svg" alt="thingsboard rule engine">
+          </section>
+          <section>
+            <h3>IoT data analytics using Apache Spark, Kafka and ThingsBoard</h3>
+            <img src="img/spark-thingsboard-integration.svg" alt="spark thingsboard integration">
           </section>
         </section>
         <section>
