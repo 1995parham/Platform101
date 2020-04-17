@@ -67,7 +67,7 @@
           <div class="toc"></div>
         </section>
         <section>
-          <div class="toc" data-selected="IoT Big Picture"></div>
+          <div class="toc" data-selected="0"></div>
         </section>
         <section>
           <section>
@@ -144,7 +144,7 @@
           </section>
         -->
         <section>
-          <div class="toc" data-selected="IoT Platforms, What & Why?"></div>
+          <div class="toc" data-selected="1"></div>
         </section>
         <section>
           <section>
@@ -281,7 +281,129 @@
           </section>
         </section>
         <section>
-          <div class="toc" data-selected="A Detailed View"></div>
+          <div class="toc" data-selected="2"></div>
+        </section>
+        <section>
+          <h2>IoT Platforms Features</h2>
+          <ul>
+            <li class="material-bold">Support of heterogeneous devices</li>
+            <ul>
+              <li>LoRa things that send thier data using cbor</li>
+              <li>nRF nodes that send their data in unreliable way</li>
+              <li>...</li>
+            </ul>
+          </ul>
+        </section>
+        <section>
+          <section>
+            <h2>How to connect?</h2>
+            <img src="img/how-to-connect.jpg" alt="How to connect">
+          </section>
+          <section>
+            <h2>Many ways 😱</h2>
+            <ul>
+              <li>LoRa, nRF, Ethernet, ...</li>
+              <li>Custom, IP, TCP, HTTP, MQTT, CoAP, ...</li>
+            </ul>
+          </section>
+          <section>
+            <h2>One Solution 🤓</h2>
+            <img src="img/platforms-2.png" alt="Platforms complex view">
+          </section>
+          <section>
+            <h2>Gateways</h2>
+            <img src="img/gateway.jpg">
+          </section>
+          <section>
+            <h2>Gateways</h2>
+            <ul>
+              <li>By using gateways every non-TCP protocol can be changed to TCP</li>
+              <li>By using gateways every non-(HTTP MQTT ...) protocol can be changed to (HTTP MQTT ...)</li>
+              <li>Gateways can act in may OSI layers</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>How to communicate?</h2>
+            <img src="img/how-to-communicate.png" alt="How to communicate">
+          </section>
+          <section>
+            <h2>Many ways 😱</h2>
+            <ul>
+              <li>JSON</li>
+              <li>CBOR</li>
+              <li>ASN.1</li>
+              <li>...</li>
+            </ul>
+          </section>
+          <section>
+            <h2>JSON?</h2>
+            <pre><code data-trim data-noescape class="json">
+{
+    "timestamp": "Mon Feb 20 21:35:00 1995",
+    "states": {
+        "temperature": 24,
+        "humidity": 10
+    }
+}
+            </code></pre>
+            <pre><code data-trim data-noescape class="json">
+{
+    "temperature": 24,
+    "humidity": 10,
+    "status": "online"
+}
+            </code></pre>
+            <pre><code data-trim data-noescape class="json">
+{
+    "101": 10,
+    "102": 10,
+    "103": 1024,
+    "201": 1.24
+}
+            </code></pre>
+          </section>
+          <section>
+            <h2>CBOR?</h2>
+            <pre><code data-trim data-noescape class="json">
+{
+    "101": 10,
+    "102": 10,
+    "103": 1024,
+    "201": 1.24
+}
+            </code></pre>
+            <pre><code data-trim data-noescape class="nohighlight">
+A4                     # map(4)
+   63                  # text(3)
+      313031           # "101"
+   0A                  # unsigned(10)
+   63                  # text(3)
+      313032           # "102"
+   0A                  # unsigned(10)
+   63                  # text(3)
+      313033           # "103"
+   19 0400             # unsigned(1024)
+   63                  # text(3)
+      323031           # "201"
+   FB 3FF3D70A3D70A3D7 # primitive(4608263282710586327)
+            </code></pre>
+          </section>
+          <section>
+            <ul>
+              <li>Things-Platform Interoperability</li>
+              <ul>
+                <li>Generated SDK</li>
+                <li>Library</li>
+                <li>Custom Encoder/Decoder</li>
+              </ul>
+              <li>Thing Data Validation</li>
+              <ul>
+                <li>Models</li>
+              </ul>
+            </ul>
+          </section>
         </section>
         <section>
           <h2>IoT Platforms vs IoT Middlewares</h2>
@@ -302,6 +424,9 @@
             <h2>Middleware is a connectivity layer</h2>
             <img src="img/platforms-1.png" alt="Platforms over view">
           </section>
+        </section>
+        <section>
+          <div class="toc" data-selected="3"></div>
         </section>
         <section>
           <section>
@@ -428,107 +553,6 @@
           </section>
         </section>
         <section>
-          <section>
-            <h2>How to connect?</h2>
-            <img src="img/how-to-connect.jpg" alt="How to connect">
-          </section>
-          <section>
-            <h2>Many ways</h2>
-            <ul>
-              <li>LoRa, nRF, Ethernet, ...</li>
-              <li>Custom, IP, TCP, HTTP, MQTT, CoAP, ...</li>
-            </ul>
-          </section>
-          <section>
-            <h2>One Solution</h2>
-            <img src="img/platforms-2.png" alt="Platforms complex view">
-          </section>
-          <section>
-            <ul>
-              <li>By using gateways every non-TCP protocol can be changed to TCP</li>
-              <li>By using gateways every non-(HTTP MQTT ...) protocol can be changed to (HTTP MQTT ...)</li>
-            </ul>
-          </section>
-        </section>
-        <section>
-          <section>
-            <h2>How to communicate?</h2>
-            <ul>
-              <li>JSON</li>
-              <li>CBOR</li>
-              <li>ASN.1</li>
-              <li>...</li>
-            </ul>
-          </section>
-          <section>
-            <h2>JSON?</h2>
-            <pre><code data-trim data-noescape class="json">
-{
-    "timestamp": "Mon Feb 20 21:35:00 1995",
-    "states": {
-        "temperature": 24,
-        "humidity": 10
-    }
-}
-            </code></pre>
-            <pre><code data-trim data-noescape class="json">
-{
-    "temperature": 24,
-    "humidity": 10,
-    "status": "online"
-}
-            </code></pre>
-            <pre><code data-trim data-noescape class="json">
-{
-    "101": 10,
-    "102": 10,
-    "103": 1024,
-    "201": 1.24
-}
-            </code></pre>
-          </section>
-          <section>
-            <h2>CBOR?</h2>
-            <pre><code data-trim data-noescape class="json">
-{
-    "101": 10,
-    "102": 10,
-    "103": 1024,
-    "201": 1.24
-}
-            </code></pre>
-            <pre><code data-trim data-noescape class="nohighlight">
-A4                     # map(4)
-   63                  # text(3)
-      313031           # "101"
-   0A                  # unsigned(10)
-   63                  # text(3)
-      313032           # "102"
-   0A                  # unsigned(10)
-   63                  # text(3)
-      313033           # "103"
-   19 0400             # unsigned(1024)
-   63                  # text(3)
-      323031           # "201"
-   FB 3FF3D70A3D70A3D7 # primitive(4608263282710586327)
-            </code></pre>
-          </section>
-          <section>
-            <ul>
-              <li>Things-Platform Interoperability</li>
-              <ul>
-                <li>Generated SDK</li>
-                <li>Library</li>
-                <li>Custom Encoder/Decoder</li>
-              </ul>
-              <li>Thing Data Validation</li>
-              <ul>
-                <li>Models</li>
-              </ul>
-            </ul>
-          </section>
-        </section>
-        <section>
           <h2>Real platform architecture</h2>
           <img src="img/platforms-components.png" alt="platforms components">
         </section>
@@ -569,9 +593,6 @@ A4                     # map(4)
               <dd>Repository that stores the important data sets</dd>
             </dl>
           </section>
-        </section>
-        <section>
-          <div class="toc" data-selected="Connectivity"></div>
         </section>
         <section>
           <h2>Which protocol we must use for connectivity?</h2>
@@ -919,8 +940,8 @@ A4                     # map(4)
             callback: function() { toc.initToCOnLoad([
               'IoT Big Picture',
               'IoT Platforms, What & Why?',
-              'A Detailed View',
               'Connectivity',
+              'A Detailed View',
               'Review on Popular Platforms'
             ]); }
           }
