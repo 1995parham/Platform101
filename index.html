@@ -406,6 +406,39 @@ A4                     # map(4)
           </section>
         </section>
         <section>
+          <h2>Which protocol we must use for connectivity?</h2>
+          <ul>
+            <li>WSN Protocols</li>
+            <li>TCP/IP Based protocols</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Protocols in TCP/IP based Platforms</h2>
+          <img src="img/protocols.png" alt="protocols in platforms">
+        </section>
+        <section>
+          <h2>Can you build an IoT system with familiar Web technologies?</h2>
+          <ul>
+            <li>Yes you can, although the result would not be as efficient as with the newer protocols.</li>
+            <li>But efficiency depends on our agents and things</li>
+            <li>At the end, what we want to connect ?</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Review on some protocols</h2>
+          <h3>TCP/IP Based for agent/platform communication</h3>
+          <dl>
+            <dt>CoAP</dt>
+            <dd>UDP - Rqst/Rspnse</dd>
+            <dt>MQTT</dt>
+            <dd>UDP - Pub/Subsrb</dd>
+            <dt>HTTP</dt>
+            <dd>TCP - Rqst/Rspnse</dd>
+            <dt>SNMP</dt>
+            <dd>UDP - Rqst/Rspnse</dd>
+          </dl>
+        </section>
+        <section>
           <h2>IoT Platforms vs IoT Middlewares</h2>
           <ul>
             <li><span class="material-bold">Middleware</span> connects different, often complex and already existing programs that were not originally designed to be connected.</li>
@@ -429,46 +462,81 @@ A4                     # map(4)
           <div class="toc" data-selected="3"></div>
         </section>
         <section>
+          <h2>IoT Platforms Features</h2>
+          <ul>
+            <li>Low Level Services: Services that interacts with Things</li>
+            <ul>
+              <li>Data Collection</li>
+              <li>Monitoring</li>
+              <li>Event Delivering</li>
+              <li>(Thing) Discovery</li>
+            </ul>
+          </ul>
+        </section>
+        <section>
+          <h2>Data?!</h2>
+          <ul>
+            <li>IoT Sensors generate <span class="material-italic">large amount</span> of <span class="material-bold">time-series data</span></li>
+          </ul>
+          <img src="img/3v.png" alt="3v">
+        </section>
+        <section>
+          <h2>Where does store thing's data?</h2>
+          <ul>
+            <li>Relational Databases</li>
+            <ul>
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+            </ul>
+            <li>Document-based Databases</li>
+            <ul>
+              <li>MongoDB</li>
+            </ul>
+            <li>Column-based Databases</li>
+            <ul>
+              <li>Cassandra</li>
+            </ul>
+          </ul>
+        </section>
+        <section>
+          <h2>Sharding vs Replication</h2>
+          <img src="img/shard-replica.png" alt="shard-replica" height="500px">
+        </section>
+        <section>
+          <h2>Things Management</h2>
+          <ul>
+            <li>Discovers the things that are connected to network</li>
+            <li>Checks the status of the things and alert if they go down</li>
+            <li>Updates things framework Over-the-Air</li>
+            <li>Performs control actions over them like restart, ...</li>
+            <li>etc.</li>
+          </ul>
+        </section>
+        <section>
+          <div class="toc" data-selected="4"></div>
+        </section>
+        <section>
           <section>
             <h2>IoT Platforms Features</h2>
             <ul>
-              <li class="material-bold">Support of heterogeneous devices</li>
-              <ul>
-                <li>LoRa things that send thier data using cbor</li>
-                <li>nRF nodes that send their data using unreliable way</li>
-                <li>...</li>
-              </ul>
               <li>Open Source</li>
               <li class="material-italic">API</li>
               <ul>
                 <li>ReST (Representational State Transfer)</li>
                 <li>RPC (Remote Procedure Call)</li>
               </ul>
+              <li>Big Data Streaming</li>
             </ul>
           </section>
           <section>
             <h2>IoT Platforms Features</h2>
             <ul>
               <li>(Data) Access Control</li>
-              <li>Type:
+              <li>Deployment Type:
                 <ul>
                   <li>PaaS (Platform-as-a-Service)</li>
                   <li>SaaS (Software-as-a-Service)</li>
                   <li>Local Installation</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-          <section>
-            <h2>IoT Platforms Features</h2>
-            <ul>
-              <li>Services:
-                <ul>
-                  <li>Data Collection</li>
-                  <li>Monitoring</li>
-                  <li>Event Delivering</li>
-                  <li>(Thing) Discovery</li>
-                  <li>Big Data Streaming</li>
                 </ul>
               </li>
             </ul>
@@ -595,40 +663,7 @@ A4                     # map(4)
           </section>
         </section>
         <section>
-          <h2>Which protocol we must use for connectivity?</h2>
-          <ul>
-            <li>WSN Protocols</li>
-            <li>TCP/IP Based protocols</li>
-          </ul>
-        </section>
-        <section>
-          <h2>Protocols in TCP/IP based Platforms</h2>
-          <img src="img/protocols.png" alt="protocols in platforms">
-        </section>
-        <section>
-          <h2>Can you build an IoT system with familiar Web technologies?</h2>
-          <ul>
-            <li>Yes you can, although the result would not be as efficient as with the newer protocols.</li>
-            <li>But efficiency depends on our agents and things</li>
-            <li>At the end, what we want to connect ?</li>
-          </ul>
-        </section>
-        <section>
-          <h2>Review on some protocols</h2>
-          <h3>TCP/IP Based for agent/platform communication</h3>
-          <dl>
-            <dt>CoAP</dt>
-            <dd>UDP - Rqst/Rspnse</dd>
-            <dt>MQTT</dt>
-            <dd>UDP - Pub/Subsrb</dd>
-            <dt>HTTP</dt>
-            <dd>TCP - Rqst/Rspnse</dd>
-            <dt>SNMP</dt>
-            <dd>UDP - Rqst/Rspnse</dd>
-          </dl>
-        </section>
-        <section>
-          <div class="toc" data-selected="Review on Popular Platforms"></div>
+          <div class="toc" data-selected="5"></div>
         </section>
         <section>
           <img src="img/platforms-wcloud.png" alt="Word Cloud of Platforms">
@@ -941,7 +976,8 @@ A4                     # map(4)
               'IoT Big Picture',
               'IoT Platforms, What & Why?',
               'Connectivity',
-              'A Detailed View',
+              'Data/Things Management',
+              'APIs/Users/Analytics/...',
               'Review on Popular Platforms'
             ]); }
           }
