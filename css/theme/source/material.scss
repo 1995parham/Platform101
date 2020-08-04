@@ -30,19 +30,19 @@ $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: #FFEB3B;
 
 .material {
-	&-select {
-		color: #FF80AB;
-	}
+        &-select {
+                color: #FF80AB;
+        }
 
-	&-italic {
-		font-style: italic !IMPORTANT;
-		color: #69F0AE;
-	}
+        &-italic {
+                font-style: italic !IMPORTANT;
+                color: #69F0AE;
+        }
 
-	&-bold {
-		font-weight: bold !IMPORTANT;
-		color: #FF9108;
-	}
+        &-bold {
+                font-weight: bold !IMPORTANT;
+                color: #FF9108;
+        }
 }
 
 .material-hl {
@@ -74,6 +74,11 @@ $selectionBackgroundColor: #FFEB3B;
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.reveal section img {
+        border: none;
+        box-shadow: none;
+}
 
 .reveal a {
         line-height: 1.3em;
