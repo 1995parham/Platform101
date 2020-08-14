@@ -20,15 +20,16 @@ for beginning your future carrier in IoT platform development.
 - 7th Persian Gulf Elecomp - 2018
 - Instrumentation Course Teaching Assistent EE - 2018
 - Shahid Beheshti University (Dr.Haghighi) - 2019
+- IoT Course CIET - 2020
 
 ## Special Thanks
 
 - [Velenjak](https://en.wikipedia.org/wiki/Velenjak)
-- [Bambil Organization](https://bambil.github.io/)
 - [I.Tabrizian](https://github.com/tabrizian)
 - [E.Jalalpour](http://ceit.aut.ac.ir/~jalalpour/)
 - [Iran IoT Forum](http://www.iraniotforum.org/)
 - [Magfa](https://magfa.com)
+- Bambil Organization
 - Amirkabir CEIT SSC
 
 ## Selected References
@@ -38,6 +39,8 @@ for beginning your future carrier in IoT platform development.
 
 ## IoT Courses
 ### SSC Summer Course 2017
+This course held in the summer of 2017 with the help of the students' scientific chapter of Amirkabir University of Technology.
+This course aims to help students to start using IoT platforms besides their hardware projects. Here you can see its topics at a glance:
 
 - IoT big picture
 - why using smart things alone? when things comes together ...
