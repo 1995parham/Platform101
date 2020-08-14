@@ -1,5 +1,5 @@
 # Introduction to IoT Platforms
-[![Drone (cloud)](https://img.shields.io/drone/build/AoLab/Platform101.svg?style=flat-square&logo=drone)](https://cloud.drone.io/AoLab/Platform101)
+[![Drone (cloud)](https://img.shields.io/drone/build/1995parham/Platform101.svg?style=flat-square&logo=drone)](https://cloud.drone.io/1995parham/Platform101)
 
 ## Introduction
 
