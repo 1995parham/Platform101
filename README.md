@@ -1,5 +1,6 @@
 # Introduction to IoT Platforms
 [![Drone (cloud)](https://img.shields.io/drone/build/1995parham/Platform101.svg?style=flat-square&logo=drone)](https://cloud.drone.io/1995parham/Platform101)
+![GitHub](https://img.shields.io/github/license/1995parham/Platform101?logo=gnu&style=flat-square)
 
 ## Introduction
 
@@ -11,26 +12,36 @@ for beginning your future carrier in IoT platform development.
 
 ## Presented in
 
-- Let's build smart CEIT - 2015
-- Yalda Night of CEIT - 2016
-- 2nd Iran IoT Conference - 2017
-- 9th Linux Festival - 2017
-- SSC IoT Summer Course - 2017
-- Saman Fekri BSc Thesis - 2017
-- 7th Persian Gulf Elecomp - 2018
-- Instrumentation Course Teaching Assistent EE - 2018
-- Shahid Beheshti University (Dr.Haghighi) - 2019
-- IoT Course CIET - 2020
+- Let's build smart - 2015 - Computer Engineering Department of Amirkabir University of Technology
+
+  There was an attempt to build a smart campus. I and Prof. Bakshi with this presentation tried to introduce a road map.
+  
+- Yalda Night of CEIT - 2016 - Students' Sientific Chapter of Computer Engineering Department of Amirkabir University of Technology
+
+  An event at Yalda night that tries to make students happy and introduces them with ongoing works at faculty. AoLab, at that year, decided to find talented students for its current jobs.
+
+- 2nd Iran IoT Conference - 2017 - Amirkabir University of Technology
+
+- 9th Linux Festival - 2017 - Students' Sientific Chapter of Computer Engineering Department of Amirkabir University of Technology
+
+- SSC IoT Summer Course - 2017 - Students' Sientific Chapter of Computer Engineering Department of Amirkabir University of Technology
+
+- 7th Persian Gulf Elecomp - 2018 - Magfa
+
+- Instrumentation Course Teaching Assistent - 2018  - Electrical Engineering Department of Amirkabir University of Technology
+
+- IoT Course - 2020 - Computer Engineering Department of Amirkabir University of Technology
 
 ## Special Thanks
 
-- [Velenjak](https://en.wikipedia.org/wiki/Velenjak)
+- [Prof. Bakhshi](https://ceit.aut.ac.ir/~bakhshis/)
+- [Prof. Rasti](https://aut.ac.ir/cv/2423/Mehdi-Rasti?slc_lang=en&&cv=2423&mod=scv)
+- [Prof. Sabaei](https://aut.ac.ir/cv/2446/Masoud-Sabaei?slc_lang=en&&cv=2446&mod=scv)
 - [I.Tabrizian](https://github.com/tabrizian)
-- [E.Jalalpour](http://ceit.aut.ac.ir/~jalalpour/)
+- [E.Jalalpour](https://github.com/eljalalpour)
 - [Iran IoT Forum](http://www.iraniotforum.org/)
 - [Magfa](https://magfa.com)
-- Bambil Organization
-- Amirkabir CEIT SSC
+- Students' Sientific Chapter of Computer Engineering Department of Amirkabir University of Technology
 
 ## Selected References
 - Dr. Majid Rasouli Disfani's presentation at 7th Persian Gulf Elecomp
