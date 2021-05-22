@@ -459,9 +459,10 @@ export default function Home() {
             </pre>
             <pre>
               <code data-trim data-noescape className="nohighlight">
-                A4 # map(4) 63 # text(3) 313031 # "101" 0A # unsigned(10) 63 #
-                text(3) 313032 # "102" 0A # unsigned(10) 63 # text(3) 313033 #
-                "103" 19 0400 # unsigned(1024) 63 # text(3) 323031 # "201" FB
+                A4 # map(4) 63 # text(3) 313031 # &quot;101&quot; 0A #
+                unsigned(10) 63 # text(3) 313032 # &quot;102&quot; 0A #
+                unsigned(10) 63 # text(3) 313033 # &quot;103&quot; 19 0400 #
+                unsigned(1024) 63 # text(3) 323031 # &quot;201&quot; FB
                 3FF3D70A3D70A3D7 # primitive(4608263282710586327)
               </code>
             </pre>
