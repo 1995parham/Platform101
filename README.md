@@ -1,4 +1,5 @@
 # Introduction to IoT Platforms
+
 [![Drone (cloud)](https://img.shields.io/drone/build/1995parham/Platform101.svg?style=flat-square&logo=drone)](https://cloud.drone.io/1995parham/Platform101)
 ![GitHub](https://img.shields.io/github/license/1995parham/Platform101?logo=gnu&style=flat-square)
 
@@ -15,7 +16,7 @@ for beginning your future carrier in IoT platform development.
 - Let's build smart - 2015 - Computer Engineering Department of Amirkabir University of Technology
 
   There was an attempt to build a smart campus. I and Prof. Bakshi with this presentation tried to introduce a road map.
-  
+
 - Yalda Night of CEIT - 2016 - Students' Sientific Chapter of Computer Engineering Department of Amirkabir University of Technology
 
   An event at Yalda night that tries to make students happy and introduces them with ongoing works at faculty. AoLab, at that year, decided to find talented students for its current jobs.
@@ -28,7 +29,7 @@ for beginning your future carrier in IoT platform development.
 
 - 7th Persian Gulf Elecomp - 2018 - Magfa
 
-- Instrumentation Course Teaching Assistent - 2018  - Electrical Engineering Department of Amirkabir University of Technology
+- Instrumentation Course Teaching Assistent - 2018 - Electrical Engineering Department of Amirkabir University of Technology
 
 - IoT Course - 2020 - Computer Engineering Department of Amirkabir University of Technology
 
@@ -44,12 +45,14 @@ for beginning your future carrier in IoT platform development.
 - Students' Sientific Chapter of Computer Engineering Department of Amirkabir University of Technology
 
 ## Selected References
+
 - Dr. Majid Rasouli Disfani's presentation at 7th Persian Gulf Elecomp
 - Dr. Mohammad Kamrani presentation at 7th Persian Gulf Elecomp
 
-
 ## IoT Courses
+
 ### SSC Summer Course 2017
+
 This course held in the summer of 2017 with the help of the students' scientific chapter of Amirkabir University of Technology.
 This course aims to help students to start using IoT platforms besides their hardware projects. Here you can see its topics at a glance:
 
