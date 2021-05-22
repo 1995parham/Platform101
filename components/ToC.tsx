@@ -2,8 +2,8 @@ import React from "react";
 import style from "./ToC.module.css";
 
 interface ToCProps {
-  topics: [string];
-  selected: string | number;
+  topics: string[];
+  selected?: string | number;
 }
 
 export default function ToC(props: ToCProps) {

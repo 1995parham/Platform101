@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import ToC from "../components/ToC.tsx";
+import ToC from "../components/ToC";
 
 export default function Home() {
   useEffect(() => {
