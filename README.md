@@ -1,7 +1,8 @@
 # Introduction to IoT Platforms
 
-[![Drone (cloud)](https://img.shields.io/drone/build/1995parham/Platform101.svg?style=flat-square&logo=drone)](https://cloud.drone.io/1995parham/Platform101)
 ![GitHub](https://img.shields.io/github/license/1995parham/Platform101?logo=gnu&style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/1995parham/Platform101/build?label=build&logo=github&style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/1995parham/Platform101/lint?label=lint&logo=github&style=flat-square)
 
 ## Introduction
 
