@@ -38,7 +38,7 @@ for beginning your future carrier in IoT platform development.
 
 ## Special Thanks
 
-- [Prof. Bakhshi](https://ceit.aut.ac.ir/~bakhshis/)
+- [Prof. Bakhshi](https://aut.ac.ir/cv/2104/BAHADOR%20BAKHSHI%20SARESKANROOD)
 - [Prof. Rasti](https://aut.ac.ir/cv/2423/Mehdi-Rasti?slc_lang=en&&cv=2423&mod=scv)
 - [Prof. Sabaei](https://aut.ac.ir/cv/2446/Masoud-Sabaei?slc_lang=en&&cv=2446&mod=scv)
 - [I.Tabrizian](https://github.com/tabrizian)
