@@ -1,21 +1,51 @@
 ---
 name: build
 on:
-  - push
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+# Allow this workflow to publish to GitHub Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Cancel in-progress runs for the same branch; let the latest commit win.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-      - run: npm install
-      - run: npm run build
-      - name: deploy to github pages
-        if: success()
-        uses: crazy-max/ghaction-github-pages@v2
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          target_branch: gh-pages
-          build_dir: out
-          jekyll: false
+          node-version: 22
+          cache: npm
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - run: npm ci
+      - run: npm run build
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_ENV: production
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./out
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
