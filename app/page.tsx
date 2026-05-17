@@ -1,24 +1,31 @@
+"use client";
+
 import React, { useEffect } from "react";
 import ToC from "../components/ToC";
 
 export default function Home() {
   useEffect(() => {
+    let deck: { destroy?: () => void } | null = null;
+
     const setupReveal = async () => {
       const { default: Reveal } = await import("reveal.js");
-      const { default: Code } = await import(
-        "reveal.js/plugin/highlight/highlight.esm.js"
-      );
+      const { default: Highlight } = await import("reveal.js/plugin/highlight");
 
-      const deck = new Reveal();
-      deck.initialize({
-        plugins: [Code],
+      const instance = new Reveal({
+        plugins: [Highlight],
         progress: true,
         slideNumber: true,
         hash: true,
       });
+      await instance.initialize();
+      deck = instance as unknown as { destroy?: () => void };
     };
 
     setupReveal();
+
+    return () => {
+      deck?.destroy?.();
+    };
   }, []);
 
   const topics = [
