@@ -518,7 +518,7 @@ export default function Home() {
             <dt>CoAP</dt>
             <dd>UDP - Rqst/Rspnse</dd>
             <dt>MQTT</dt>
-            <dd>UDP - Pub/Subsrb</dd>
+            <dd>TCP - Pub/Subsrb</dd>
             <dt>HTTP</dt>
             <dd>TCP - Rqst/Rspnse</dd>
             <dt>SNMP</dt>
