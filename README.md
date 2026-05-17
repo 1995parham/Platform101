@@ -9,26 +9,26 @@
 ## Introduction
 
 This presentation includes many topics like introduction to IoT, why the platform is important and etc.
-It made in the [Aolab](http://aolab.github.io/) where is a closed (2015-2017) laboratory in Amirkabir University of technology.
+It was made in [Aolab](http://aolab.github.io/), a closed (2015-2017) laboratory at Amirkabir University of Technology.
 
 You may use this presentation to get familiar with IoT platforms implementation and concepts
-for beginning your future carrier in IoT platform development.
+for beginning your future career in IoT platform development.
 
 ## Presented in
 
 - Let's build smart - 2015 - Computer Engineering Department of Amirkabir University of Technology
 
-  There was an attempt to build a smart campus. I and Prof. Bakshi with this presentation tried to introduce a road map.
+  There was an attempt to build a smart campus. I and Prof. Bakhshi with this presentation tried to introduce a road map.
 
-- Yalda Night of CEIT - 2016 - Students' Sientific Chapter of Computer Engineering Department of Amirkabir University of Technology
+- Yalda Night of CEIT - 2016 - Students' Scientific Chapter of Computer Engineering Department of Amirkabir University of Technology
 
   An event at Yalda night that tries to make students happy and introduces them with ongoing works at faculty. AoLab, at that year, decided to find talented students for its current jobs.
 
 - 2nd Iran IoT Conference - 2017 - Amirkabir University of Technology
 
-- 9th Linux Festival - 2017 - Students' Sientific Chapter of Computer Engineering Department of Amirkabir University of Technology
+- 9th Linux Festival - 2017 - Students' Scientific Chapter of Computer Engineering Department of Amirkabir University of Technology
 
-- SSC IoT Summer Course - 2017 - Students' Sientific Chapter of Computer Engineering Department of Amirkabir University of Technology
+- SSC IoT Summer Course - 2017 - Students' Scientific Chapter of Computer Engineering Department of Amirkabir University of Technology
 
 - 7th Persian Gulf Elecomp - 2018 - Magfa
 
@@ -45,7 +45,7 @@ for beginning your future carrier in IoT platform development.
 - [E.Jalalpour](https://github.com/eljalalpour)
 - [Iran IoT Forum](http://www.iraniotforum.org/)
 - [Magfa](https://magfa.com)
-- Students' Sientific Chapter of Computer Engineering Department of Amirkabir University of Technology
+- Students' Scientific Chapter of Computer Engineering Department of Amirkabir University of Technology
 
 ## Selected References
 

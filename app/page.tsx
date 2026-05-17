@@ -163,10 +163,10 @@ export default function Home() {
               <li>Sensors, Actuators, etc.</li>
               <li>Design from scratch</li>
               <li>
-                Build with ready-made hardware like Arduio, Raspberry Pi, etc.
+                Build with ready-made hardware like Arduino, Raspberry Pi, etc.
               </li>
               <li>
-                You need to be familar with Electerical and Hardware engineering
+                You need to be familiar with Electrical and Hardware engineering
               </li>
             </ul>
           </section>
@@ -183,8 +183,8 @@ export default function Home() {
             <ul>
               <li>Kaa, Thingsboard, etc.</li>
               <li>
-                You need to be familar with Backend even Frontend development
-                technologies
+                You need to be familiar with Backend and even Frontend
+                development technologies
               </li>
             </ul>
           </section>
@@ -283,7 +283,7 @@ export default function Home() {
             </div>
           </section>
           <section>
-            <h2>What is thier job ?</h2>
+            <h2>What is their job?</h2>
             <ul>
               <li>
                 <span className="material-bold">Developers</span> can develop
@@ -316,7 +316,7 @@ export default function Home() {
             </ul>
           </section>
           <section>
-            <blockquote>Foucs on Service</blockquote>
+            <blockquote>Focus on Service</blockquote>
             <p>
               Platforms must provide service to customers, and customers use
               these services to implement their unique applications.
@@ -365,7 +365,7 @@ export default function Home() {
           <ul>
             <li className="material-bold">Support of heterogeneous devices</li>
             <ul>
-              <li>LoRa things that send thier data using cbor</li>
+              <li>LoRa things that send their data using CBOR</li>
               <li>nRF nodes that send their data in unreliable way</li>
               <li>...</li>
             </ul>
@@ -401,7 +401,7 @@ export default function Home() {
                 By using gateways every non-(HTTP MQTT ...) protocol can be
                 changed to (HTTP MQTT ...)
               </li>
-              <li>Gateways can act in may OSI layers</li>
+              <li>Gateways can act on many OSI layers</li>
             </ul>
           </section>
         </section>
