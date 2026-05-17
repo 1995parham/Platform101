@@ -1,4 +1,4 @@
-# Introduction to IoT Platforms
+<h1 align="center">Introduction to IoT Platforms</h1>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/github/license/1995parham/Platform101?style=for-the-badge&logo=gnu" />
