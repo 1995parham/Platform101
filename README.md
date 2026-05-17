@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="Platform101 banner" src="./.github/banner.jpg" width="640" />
+</p>
+
 <h1 align="center">Introduction to IoT Platforms</h1>
 
 <p align="center">
