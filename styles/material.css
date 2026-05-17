@@ -47,7 +47,7 @@ body {
 
 .reveal {
   font-family: "Roboto", Palatino, FreeSerif, serif;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: normal;
   color: #212121;
 }
@@ -85,15 +85,15 @@ body {
 }
 
 .reveal h1 {
-  font-size: 3.77em;
+  font-size: 2.6em;
 }
 
 .reveal h2 {
-  font-size: 2.11em;
+  font-size: 1.6em;
 }
 
 .reveal h3 {
-  font-size: 1.55em;
+  font-size: 1.25em;
 }
 
 .reveal h4 {
