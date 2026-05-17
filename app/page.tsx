@@ -873,6 +873,17 @@ export default function Home() {
               100% open-source Internet of Things middleware platform for
               everyone.
             </p>
+            <aside className="notes">
+              Note (2026): the open-source Kaa platform was archived in 2020;
+              the team now operates KaaIoT.io as a commercial managed service.
+            </aside>
+            <p>
+              <small className="material-hl-orange">
+                2026 update: the OSS Kaa project was archived in 2020. The same
+                team now runs <a href="https://www.kaaiot.io/">KaaIoT.io</a> as
+                a commercial managed service.
+              </small>
+            </p>
           </section>
           <section>
             <h2>What is Kaa?</h2>
@@ -1028,11 +1039,10 @@ export default function Home() {
           <section>
             <h2>Distribution Method</h2>
             <ul>
-              <li>Open Source</li>
-              <li>PaaS</li>
+              <li>Open Source (Apache 2.0) — archived in 2020</li>
               <li>
-                The ground-breaking Kaa 1.0.0 will be available soon for the
-                pre-release trial among early subscribers.
+                Managed service: <a href="https://www.kaaiot.io/">KaaIoT.io</a>{" "}
+                (commercial)
               </li>
             </ul>
           </section>
@@ -1243,6 +1253,104 @@ export default function Home() {
           </section>
           <section>
             <h2>Azure IoT Hub Integration</h2>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>2026 Landscape Update</h2>
+            <p>
+              The platforms above were the state of the art around{" "}
+              <span className="material-italic">2015–2018</span>. The next
+              slides cover what has shifted since.
+            </p>
+          </section>
+          <section>
+            <h2>Hyperscaler-managed offerings</h2>
+            <dl>
+              <dt>AWS IoT Core</dt>
+              <dd>
+                Dominant managed broker (MQTT 3.1.1, MQTT 5, HTTPS, WSS) +
+                Rules, Jobs, Greengrass, Device Defender, SiteWise.
+              </dd>
+              <dt>Azure IoT Hub</dt>
+              <dd>
+                Still active. Note: Azure IoT Central (the higher-level SaaS)
+                is being retired by March 2027.
+              </dd>
+              <dt>Google Cloud IoT Core</dt>
+              <dd>
+                <span className="material-hl-orange">
+                  Retired on 2023-08-16
+                </span>{" "}
+                — workloads migrated to partner brokers (ClearBlade, EMQX) or
+                custom Pub/Sub fronts.
+              </dd>
+            </dl>
+          </section>
+          <section>
+            <h2>Open-source platforms today</h2>
+            <dl>
+              <dt>
+                <a href="https://www.eclipse.org/hono/">Eclipse Hono</a> +{" "}
+                <a href="https://www.eclipse.org/ditto/">Eclipse Ditto</a>
+              </dt>
+              <dd>
+                Cloud-native protocol adapters (MQTT/AMQP/CoAP/LoRaWAN) plus a
+                digital-twin layer. Current OSS reference architecture under
+                the Eclipse IoT umbrella.
+              </dd>
+              <dt>
+                <a href="https://magistrala.abstractmachines.fr/">Magistrala</a>
+              </dt>
+              <dd>
+                Successor to Mainflux. Modular, Go-based, multi-tenant — fills
+                the niche Kaa used to occupy.
+              </dd>
+              <dt>
+                <a href="https://thingsboard.io/">ThingsBoard</a>
+              </dt>
+              <dd>Still actively developed; CE + PE (commercial) split.</dd>
+            </dl>
+          </section>
+          <section>
+            <h2>Brokers &amp; protocols</h2>
+            <dl>
+              <dt>
+                <a href="https://www.emqx.io/">EMQX</a> /{" "}
+                <a href="https://nanomq.io/">NanoMQ</a>
+              </dt>
+              <dd>
+                MQTT 5 brokers that have largely displaced the
+                Mosquitto/RabbitMQ generation for high-fan-out IoT workloads.
+              </dd>
+              <dt>
+                <a href="https://csa-iot.org/all-solutions/matter/">Matter</a> /{" "}
+                <a href="https://www.threadgroup.org/">Thread</a>
+              </dt>
+              <dd>
+                Cross-vendor smart-home standard (Apple / Google / Amazon /
+                Samsung) — increasingly the layer below Home Assistant.
+              </dd>
+              <dt>
+                <a href="https://www.home-assistant.io/">Home Assistant</a>
+              </dt>
+              <dd>
+                Still the gold standard for self-hosted home automation;
+                first-class Matter support since 2023.
+              </dd>
+            </dl>
+          </section>
+          <section>
+            <h2>What stuck around</h2>
+            <ul>
+              <li>Kafka + Flink for streaming — unchanged, still dominant</li>
+              <li>MQTT — only more popular, now at version 5</li>
+              <li>Time-series stores — InfluxDB, TimescaleDB, VictoriaMetrics</li>
+              <li>
+                The platform layering (connectivity / data / API) from the
+                earlier slides — still the right mental model
+              </li>
+            </ul>
           </section>
         </section>
         <section data-background-image="img/thank-you.jpeg"></section>
