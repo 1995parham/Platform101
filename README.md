@@ -1,8 +1,10 @@
 # Introduction to IoT Platforms
 
-![GitHub](https://img.shields.io/github/license/1995parham/Platform101?logo=gnu&style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/1995parham/Platform101/build?label=build&logo=github&style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/1995parham/Platform101/lint?label=lint&logo=github&style=flat-square)
+<p align="center">
+  <img alt="License" src="https://img.shields.io/github/license/1995parham/Platform101?style=for-the-badge&logo=gnu" />
+  <img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/1995parham/Platform101/build.yaml?branch=main&style=for-the-badge&logo=github&label=build" />
+  <img alt="Lint status" src="https://img.shields.io/github/actions/workflow/status/1995parham/Platform101/lint.yaml?branch=main&style=for-the-badge&logo=github&label=lint" />
+</p>
 
 ## Introduction
 
