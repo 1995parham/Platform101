@@ -9,19 +9,19 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "next": "^16.3.0",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
+    "next": "^16.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "reveal.js": "^6.0.1"
   },
   "devDependencies": {
-    "@types/node": "^22.10.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "@types/reveal.js": "^5.2.0",
-    "eslint": "^9.18.0",
-    "eslint-config-next": "^16.2.6",
-    "typescript": "^5.7.0"
+    "@types/node": "^22.20.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@types/reveal.js": "^5.2.2",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.4",
+    "typescript": "^6.0.3"
   },
   "overrides": {
     "postcss": "^8.5.26"
