@@ -9,18 +9,18 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "next": "^16.3.4",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "reveal.js": "^6.0.1"
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "reveal.js": "^6.0.2"
   },
   "devDependencies": {
-    "@types/node": "^22.20.1",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "@types/reveal.js": "^5.2.2",
     "eslint": "^9.39.5",
-    "eslint-config-next": "^16.3.4",
+    "eslint-config-next": "^16.4.0",
     "typescript": "^6.0.3"
   },
   "overrides": {
