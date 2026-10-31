@@ -9,9 +9,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "next": "^16.4.1",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "reveal.js": "^6.0.2"
   },
   "devDependencies": {
@@ -20,7 +20,7 @@
     "@types/react-dom": "^19.3.0",
     "@types/reveal.js": "^5.2.2",
     "eslint": "^9.39.5",
-    "eslint-config-next": "^16.4.0",
+    "eslint-config-next": "^16.4.3",
     "typescript": "^6.0.3"
   },
   "overrides": {
